@@ -5,15 +5,19 @@ node {
 	sleep 3	  
    }
    stage('Compile') {
-	echo 'I am from Compile Statge'
+	echo 'I am From Kiran Demo 1'
 	sleep 3
    }
    stage('Testing') {
-	echo 'I am from Testing Statge'
+	echo 'I am From Kiran Demo 2'
     sleep 3
    }
    stage('Deployment') {
-	echo 'I am from Deployment Statge'
+	echo 'I am From Kiran Demo 3'
+	sleep 3
+   }
+   stage('Unit Test') {
+	echo 'I am From Kiran Demo 4'
 	sleep 3
    }
 }
